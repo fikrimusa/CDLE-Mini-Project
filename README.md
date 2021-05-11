@@ -1,6 +1,8 @@
 <h1 align="justify"> Interfacing three different sensors with Raspberry Pi through different protocols, presenting the sensor data, and integrating an AI model on a dashboard. </h1>
 The project used Raspberry Pi as a central control unit coupled with three different sensors that communicate different communication protocols and display all sensor data on a dashboard. To also integrate an AI model on the dashboard. 
 
+![alt text](https://github.com/fikrimusa/CDLE-Mini-Project/Picture/Project_description.png "Logo Title Text 1")
+
 ## Walkthrough of steps to install and run the project
 
 
