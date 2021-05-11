@@ -1,14 +1,17 @@
 <h1 align="justify"> Interfacing three different sensors with Raspberry Pi through different protocols, presenting the sensor data, and integrating an AI model on a dashboard. </h1>
 The project used Raspberry Pi as a central control unit coupled with three different sensors that communicate different communication protocols and display all sensor data on a dashboard. To also integrate an AI model on the dashboard. 
-
-![alt text](https://github.com/fikrimusa/CDLE-Mini-Project/Picture/Project_description.png "Logo Title Text 1")
+<br>
+<br>
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Project_description.png">
+</p>
 
 ## Walkthrough of steps to install and run the project
 
 
 ### Prerequisites
 The project has been developed and tested on Raspbian operating system.
-
+<br>
 ### Hardware requirements
 1.  Raspberry Pi 4 Model B 8GB.
 2.  Ultrasonic sensor (US100).
@@ -21,30 +24,42 @@ The project has been developed and tested on Raspbian operating system.
 9.  Raspberry Pi 4 Power Switch Supply Cable USB C.
 10. Soldering tools (Soldering Iron, Solder Wire, Desoldering Pump, Soldering Iron Stand, Cleaning Sponge, Tweezers, Wire Stripper/Cutter).
 11. Multimeter.
-
 ### Software requirements.
 1.  Raspbian operating system.
 2.  Node-RED.
 ***
-
 ## Raspbian operating system
 The installation of Raspberry Pi operating system can be done by manually or automatically. Recommended to install automatically because it saves a lot of time.
+
 1. Installation for Raspberry Pi operating system (Manually)
-+ Format SD card
-+ Open file explorer, click format sd card
-+ File system = FAT32 (Default).
+<br> - Format SD card
+<br> - Open file explorer, click format sd card
+<br> - File system = FAT32 (Default).
+
 2. Install OS Raspberry Pi (Raspbian)
-+ Install BalenaEtcher.
-+ Open BalenaEtcher, Select Image (Installed OS zip file), select sd card and flash.
+<br> - Install BalenaEtcher.
+<br> - Open BalenaEtcher, Select Image (Installed OS zip file), select sd card and flash.
+
 3. Setup in Raspberry Pi - Download Raspbian (Recommended).
+
 4. Update Raspberry Pi
-+ Open terminal type "sudo apt-get update".
-+ Then "sudo apt-get upgrade".
-+ Reboot.
+- Open terminal type
+```linux 
+sudo apt-get update
+```
+- Then,
+```linux 
+sudo apt-get upgrade
+```
+- Reboot.
+```linux 
+sudo reboot
+```
+<br/>
 5. Installation for Raspberry Pi operating system (Automatically)
-+ Install Raspberry Pi Imager
-+ Format SD card
-+ Choose operating system and install
+<br> - Install Raspberry Pi Imager
+<br> - Format SD card
+<br> - Choose operating system and install
 ***
 
 ## Node-RED
