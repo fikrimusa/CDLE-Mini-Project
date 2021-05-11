@@ -101,4 +101,18 @@ In this mini project, an object detection model has been used in order to demons
 
 
 ## Dashboard
+### Real Time Sensor Data
+The real-time sensors data dashboard presents three different sensor readings and also a line chart for each sensor readings. Temperature reading use gauge indicator, light level use level indicator and distance reading use text and all of these reading are real-time. 
 
+The line chart displayed the sensor reading against the time. Skymind logo also shows at the top of the dashboard and real-time clock and date that are up-to-date time by time.
+
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Step-by-step (1).png">
+</p>
+
+### Real Time Object Detection
+In the object detection dashboard, it is actually from p5.js. It works exactly like p5.js since the codes are similar. It uses an iframe in order to display the object detection webpage and run the object detection model.
+
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Step-by-step (5).png">
+</p>
