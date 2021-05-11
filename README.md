@@ -90,3 +90,15 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 + node-red-log (this displays the log output of the service)
 
 5.  You can also start the Node-RED service on the Raspbian Desktop by selecting the Menu -> Programming -> Node-RED menu option.
+***
+
+## AI Model
+In this mini project, an object detection model has been used in order to demonstrate the AI model on the dashboard. Object detection model that aims to localize and identify multiple objects in a single image. It uses a cocossd dataset where it contains hundreds of thousands of images with millions of already labeled objects for training. The Common Objects in Context (COCO) dataset is one of the most popular open source object recognition databases used to train deep learning programs.
+
+  The model is capable of detecting 80 classes of objects. (SSD stands for Single Shot MultiBox Detection). The green bounding box used for indicates an object for example person, tie, bottle etc. At the top left corner, shows the type of object and confidence level of the object. It uses html code to display “Object Detection using COCOSSD” word.
+
+
+
+
+## Dashboard
+
