@@ -5,7 +5,7 @@ The project used Raspberry Pi as a central control unit coupled with three diffe
 
 
 ### Prerequisites
-The project has been developed and tested using the Raspbian operating system.
+The project has been developed and tested on Raspbian operating system.
 
 ### Hardware requirements
 1.  Raspberry Pi 4 Model B 8GB.
@@ -49,8 +49,9 @@ The installation of Raspberry Pi operating system can be done by manually or aut
 Running on Raspberry Pi. Installing and Upgrading Node-RED.
 
 1.  Running the following command will download and run the script. If you want to review the contents of the script first, you can view it here.
+```linux
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-
+```
 
 2.  This script will:
 + remove the pre-packaged version of Node-RED and Node.js. if they are present.
