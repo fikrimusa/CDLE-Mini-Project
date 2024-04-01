@@ -60,11 +60,17 @@ This project involves integrating three different sensors with a Raspberry Pi, e
 - Line charts depict sensor readings over time.
 - Includes Skymind logo and real-time clock.
 
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Step-by-step (1).png">
+</p>
+
 ### Real-Time Object Detection
 
 - Utilizes p5.js for object detection visualization.
 - Embeds the object detection webpage within an iframe for seamless integration.
 
-![Dashboard Image](https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Step-by-step (1).png)
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Step-by-step (5).png">
+</p>
 
 Enhanced with detailed installation instructions and clear delineation of features, this project aims to facilitate seamless integration of sensors and AI on Raspberry Pi, providing a comprehensive dashboard for data visualization and analysis.
