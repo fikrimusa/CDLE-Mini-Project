@@ -3,7 +3,9 @@
 ## Overview
 This project involves integrating three different sensors with a Raspberry Pi, each employing distinct communication protocols. The collected sensor data is then visualized on a dashboard, along with the integration of an AI model for object detection.
 
-![Project Image](https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Project_description.png)
+<p align="center">
+  <img width="500" height="340" src="https://github.com/fikrimusa/CDLE-Mini-Project/raw/master/Picture/Project_description.png">
+</p>
 
 ## Installation and Execution Guide
 
